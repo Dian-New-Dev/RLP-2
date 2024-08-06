@@ -1,13 +1,27 @@
 import React from 'react';
+import Header from './Header';
+import Hero from './Hero';
+import Sobre from './Sobre';
+import Como from './Como';
+import Formulario from './Formulario';
+import Footer from './Footer';
 
 const App: React.FC = () => {
-  return (
-    <div>
-          <h1>Esta será minha segunda página.</h1>
-          <p>Esta é a inspiraçã para ela:</p>
-          <img src="src/assets/modelo.png" alt="" />
-    </div>
-  );
+    return (
+        <div className='relative'>
+            <Header />
+
+            <Hero />
+
+            <Sobre />
+
+            <Como />
+
+            <Formulario />
+
+            <Footer />
+        </div>
+    );
 };
 
 export default App;
