@@ -5,5 +5,21 @@
 * {
     min-width: 0;
     box-sizing: border-box;
-    border: 1px dotted yellow;
+    /* border: 1px dotted yellow; */
+}
+
+h1 {
+    font-family: "Oxygen", sans-serif;
+}
+
+h2, h3, h4, h5, h6, a, button {
+    font-family: "Questrial", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.gradient-hero {
+    background: linear-gradient(220deg, rgba(245,3,203,1) 5%, #7515e5 40%, rgba(38,20,120,1) 90%);
 }
