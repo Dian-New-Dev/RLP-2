@@ -23,3 +23,47 @@ p {
 .gradient-hero {
     background: linear-gradient(220deg, rgba(245,3,203,1) 5%, #7515e5 40%, rgba(38,20,120,1) 90%);
 }
+
+.custom-shape-divider-bottom-1723485188 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+
+.custom-shape-divider-bottom-1723485188 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 400px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1723485188 .shape-fill {
+    fill: #e0f2fe;
+}
+
+.bg-blob {
+    background-image: url('src/assets/svg/bg4.svg');
+    background-position: center;
+    background-size: 50% 100%;
+    padding: 50px;
+    background-repeat: no-repeat;
+    border: 1px solid purple;
+}
+
+.bg-blended-coqueiro {
+    background-image: url('src/assets/svg/coqueiro.svg');
+    background-blend-mode: multiply;
+    background-position: 100% 0%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.rotate-image {
+    transform: rotateY(180deg)
+}

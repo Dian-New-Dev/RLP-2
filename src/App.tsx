@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
-        <div className='relative w-full'>
+        <div className='relative w-full gradient-hero z-20'>
             <Header />
 
             <Hero />

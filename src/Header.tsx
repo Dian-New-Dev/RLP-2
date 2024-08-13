@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
     return (
-        <div className='absolute flex items-center px-12 w-full top-0 left-0 text-sky-100'>
+        <div className='absolute flex items-center px-12 w-full top-0 left-0 text-sky-100 pt-4'>
             <div className='w-1/4'>
                 <img className='w-24' src="src/assets/logo.png" alt="Logo" />
             </div>

@@ -3,8 +3,8 @@ import Arte from './Arte'
 
 const Hero: React.FC = () => {
     return (
-        <div id="hero-outer" className='w-full h-screen gradient-hero overflow-hidden pt-12'>
-            <div className='flex items-center  p-10 pt-80 w-full h-screen'>
+        <div id="hero-outer" className='w-full h-screen overflow-hidden pt-12'>
+            <div className='flex items-center  p-10 pt-40 w-full h-screen'>
 
                 <Arte />
 
