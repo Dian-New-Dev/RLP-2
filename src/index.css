@@ -5,8 +5,8 @@
 * {
     min-width: 0;
     box-sizing: border-box;
-    /* border: 1px dotted yellow; */
-    /* background-color: black; */
+    /* border: 1px dotted yellow;
+    background-color: black; */
 }
 
 h1 {
@@ -45,7 +45,7 @@ p {
 }
 
 .custom-shape-divider-bottom-1723485188 .shape-fill {
-    fill: #e0f2fe;
+    fill: #93c5fd;
 }
 
 .bg-blob {

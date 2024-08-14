@@ -8,18 +8,20 @@ import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
-        <div className='relative w-full gradient-hero z-20'>
-            <Header />
+        <div className='grid place-items-center gradient-hero'>
+            <div className='relative w-full max-w-[1440px] z-20 overflow-hidden'>
+                <Header />
 
-            <Hero />
+                <Hero />
 
-            <Sobre />
+                <Sobre />
 
-            {/* <Como />
+                <Como />
 
-            <Formulario />
+                <Formulario />
 
-            <Footer /> */}
+                <Footer />
+            </div>
         </div>
     );
 };
