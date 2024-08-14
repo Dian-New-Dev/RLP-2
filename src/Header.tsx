@@ -1,21 +1,45 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import HeaderDesktop from './HeaderDesktop';
+import HeaderMobile from './HeaderMobile';
 
 const Header: React.FC = () => {
+
+    const [abriuNoMobile, setAbriuNoMobile] = useState(false);
+
+    useEffect(() => {
+        function definirFormatodoHeader() {
+            console.log('esta função aconteceu!: ' + document.documentElement.clientWidth)
+            if (document.documentElement.clientWidth < 768) {
+                setAbriuNoMobile(true);
+            } else {
+                setAbriuNoMobile(false)
+            }
+            
+        }
+
+        //chama a função na primeira renderização, equivale a um "onload"
+        definirFormatodoHeader();
+
+        //chama a função se o viewport tiver o tamanho alterado
+        window.addEventListener('resize', definirFormatodoHeader);
+
+        //limpa o listener (não sei pq é necessáriom mas é)
+        return () => {
+            window.removeEventListener('resize', definirFormatodoHeader)
+        }
+        
+    }, []); 
+
+
+
     return (
-        <div className='absolute flex items-center px-12 w-full top-0 left-0 text-sky-100 pt-4'>
-            <div className='w-1/4'>
-                <img className='w-24' src="src/assets/logo.png" alt="Logo" />
-            </div>
-            <div className='w-3/4 flex gap-8 justify-end items-center'>
-                <a className='hover:text-orange-300' href="#header">Início</a>
-                <a className='hover:text-orange-300' href="#sobre">Sobre</a>
-                <a className='hover:text-orange-300' href="#como">Como Participar</a>
-                <a className='hover:text-sky-100' href="#formulario">
-                    <button className='bg-orange-600 hover:bg-orange-700 p-2 rounded-full'>Increva-se</button>
-                </a>
-            </div>
+        <div>
+            {abriuNoMobile ? <HeaderMobile /> : <HeaderDesktop />}
         </div>
+
+
     );
 };
 
 export default Header;
+

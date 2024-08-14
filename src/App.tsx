@@ -15,11 +15,11 @@ const App: React.FC = () => {
 
             <Sobre />
 
-            <Como />
+            {/* <Como />
 
             <Formulario />
 
-            <Footer />
+            <Footer /> */}
         </div>
     );
 };
