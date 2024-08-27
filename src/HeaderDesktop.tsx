@@ -27,7 +27,7 @@ const HeaderDesktop: React.FC = () => {
             <div className='z-50 fixed flex items-cente px-12 lg:px-28 2xl:px-48  w-full top-0 left-0 text-sky-100 pt-4'>
 
                 <div className='w-1/4'>
-                    <img className='w-24' src="src/assets/logo.png" alt="Logo" />
+                    <img className='w-24' src={"./assets/images/logo.png"} alt="Logo" />
                 </div>
                 
                 <div className='w-3/4 flex gap-8 justify-end items-center'>

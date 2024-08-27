@@ -49,7 +49,7 @@ p {
 }
 
 .bg-blob {
-    background-image: url('src/assets/svg/bg4.svg');
+    background-image: url('./public/assets/images/svg/bg4.svg');
     background-position: center;
     background-size: 50% 100%;
     padding: 50px;
@@ -58,7 +58,7 @@ p {
 }
 
 .bg-blended-coqueiro {
-    background-image: url('src/assets/svg/coqueiro.svg');
+    background-image: url('./public/assets/imags/svg/coqueiro.svg');
     background-blend-mode: multiply;
     background-position: 100% 0%;
     background-size: 70%;

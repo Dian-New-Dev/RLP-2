@@ -22,10 +22,10 @@ const Como: React.FC = () => {
                     
             </div>
 
-            <img className='z-0 absolute w-full scale-y-125 sm:scale-y-75 md:scale-y-50 xl:scale-y-[0.35] top-[100px] sm:top-[-100px]  md:top-[-230px] xl:top-[-230px] left-0' src="src/assets/svg/bg4.svg" alt="blob de pano de fundo" />
+            <img className='z-0 absolute w-full scale-y-125 sm:scale-y-75 md:scale-y-50 xl:scale-y-[0.35] top-[100px] sm:top-[-100px]  md:top-[-230px] xl:top-[-230px] left-0' src={"./assets/images/svg/bg4.svg"} alt="blob de pano de fundo" />
 
             <div className='z-10 absolute w-[100%] sm:w-[70%] right-[-100px] top-[-75px] md:top-[-250px]'>
-                <img className='w-full z-10' src="src/assets/mazda2.png" alt="Imagem de um Mazda" />
+                <img className='w-full z-10' src={"./assets/images/mazda2.png"} alt="Imagem de um Mazda" />
             </div>
         </div>
     );

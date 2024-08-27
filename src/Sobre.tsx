@@ -33,18 +33,3 @@ const Sobre: React.FC = () => {
 
 export default Sobre;
 
-{/* <div className='w-full h-screen'>
-
-<div className='relative  h-96 border w-full mt-[900px] mr-[-20px]'>
-   <img id="imagem-do-carro" className='absolute z-30 w-[80%] left-[350px] scale-x-[-1]' src="/src/assets/mazda.png" alt="Imagem do carro a ser sorteado" />
-
-   <img className='absolute bottom-[-800px] left-0 z-10 w-[100%] scale-y-[1.5]' src="src/assets/svg/blob.svg" alt="Desenho de folha" />
-   <img className='absolute bottom-[-800px] left-0 z-10 w-[100%] scale-y-[1.5] rotate-[25deg]' src="src/assets/svg/blob1.svg" alt="Desenho de folha" />
-   <img className='absolute bottom-[-800px] left-0 z-10 w-[100%] scale-y-[1.5] rotate-[50deg] ' src="src/assets/svg/blob2.svg" alt="Desenho de folha" />
-   <img className='absolute bottom-[-800px] left-0 z-10 w-[100%] scale-y-[1.5] rotate-[-25deg]' src="src/assets/svg/blob3.svg" alt="Desenho de folha" />
-   <img className='absolute bottom-[-800px] left-0 z-10 w-[100%] scale-y-[1.5] rotate-[-50deg]' src="src/assets/svg/blob4.svg" alt="Desenho de folha" />
-   <img className='absolute left-[-80px] bottom-[-1100px] rotate-[270deg] scale-y-[1.8]' src="src/assets/svg/sand.svg" alt="Ilustraão de areai de praia" />
-   <img className='absolute z-0 bottom-[-500px] right-10 scale-[0.75]' src="src/assets/svg/sky.svg" alt="Céu azul"/>
-   <img className='absolute z-10 bottom-[-500px] right-[-500px] scale-[0.6]' src="src/assets/svg/coco.svg" alt="Céu azul"/>
-</div> */}
-
