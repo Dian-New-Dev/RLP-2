@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
-        <div className='grid place-items-center gradient-hero'>
+        <div id="A" className='grid place-items-center gradient-hero'>
             <div className='relative w-full max-w-[1440px] z-20 overflow-hidden'>
                 <Header />
 

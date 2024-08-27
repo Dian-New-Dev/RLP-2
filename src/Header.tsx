@@ -4,7 +4,8 @@ import HeaderMobile from './HeaderMobile';
 
 const Header: React.FC = () => {
 
-    const [abriuNoMobile, setAbriuNoMobile] = useState(false);
+    const [abriuNoMobile, setAbriuNoMobile] = useState<boolean>(false);
+    const [larguraDaTela, setLarguraDaTela] = useState<number>(document.documentElement.clientWidth)
 
     useEffect(() => {
         function definirFormatodoHeader() {
@@ -14,7 +15,7 @@ const Header: React.FC = () => {
             } else {
                 setAbriuNoMobile(false)
             }
-            
+            setLarguraDaTela(document.documentElement.clientWidth)  
         }
 
         //chama a função na primeira renderização, equivale a um "onload"
@@ -34,7 +35,7 @@ const Header: React.FC = () => {
 
     return (
         <div>
-            {abriuNoMobile ? <HeaderMobile /> : <HeaderDesktop />}
+            {abriuNoMobile ? <HeaderMobile larguraDaTela={larguraDaTela} /> : <HeaderDesktop />}
         </div>
 
 

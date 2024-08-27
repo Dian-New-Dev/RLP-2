@@ -82,3 +82,7 @@ p {
 .opaco {
     opacity: 0;
 }
+
+.hamburguer-transition {
+    transition: left 0.7s ease;
+}

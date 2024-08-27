@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sobre: React.FC = () => {
     return (
-        <div className='relative z-10 w-full'>
+        <div id='B' className='relative z-10 w-full'>
             <div className='relative w-full z-10 flex mt-[-150px] md:mt-[-250px] justify-center text-center lg:text-left lg:justify-between'>
                 <div className='relative z-10 flex flex-col md:flex-row bg-red-500/0 w-[70%] rounded-br-[300px] md:p-12 gap-8'>
                     <div className='z-10 w-full md:w-1/2 flex flex-col items-center md:items-start gap-4 '>
@@ -13,7 +13,7 @@ const Sobre: React.FC = () => {
                     <div className='z-10 w-full md:w-1/2 flex flex-col items-center md:items-start gap-4 mb-4 md:mb-80 lg:mb-40  '>
                         <h3 className='text-lg font-bold text-sky-100'>UM FESTIVAL DE PRESENTES</h3>
                         <p className='text-sky-100'>O sorteio é nossa forma de agradecer ao carinho e colaboração de nosso clientes, mas não é nosso único presente. Durante o nosso mês de comemorações, estaremos oferecendo ofertas incríveis. Confira nosso preços, converse com nossos atendentes e conquiste seu direito de dirigir.</p>
-                        <button className='bg-orange-500 hover:bg-blue-950 rounded-full w-52 py-4 font-bold text-sky-100'>Ir para Página da Motor City</button>    
+                        <button className='z-40 bg-orange-500 hover:bg-blue-950 rounded-full w-52 py-4 font-bold text-sky-100'>Ir para Página da Motor City</button>    
                     </div>
                 </div>
                 <div id='svgggg' className="custom-shape-divider-bottom-1723485188 z-0 hidden md:block">
